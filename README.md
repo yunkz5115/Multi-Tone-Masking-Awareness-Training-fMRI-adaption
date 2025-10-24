@@ -12,5 +12,8 @@ Scanning / stimuli / experiment configuration could be modified through Training
 
 We provided a TR trigger simulator based on AutoHotKey Dash, install through https://www.autohotkey.com/.
 To enable simulated TR trigger, download AutoHotKey and enable MRI_Trigger_Simulator.ahk by double clicking, then press ctrl + 8 to enable / disable trigger simulator.
+TR is 2s (hard coded), to change simulated TR, change in MRI_Trigger_Simulator.ahk with notebook. In row SetTimer PressT, X ; replace X into the time you would prefer (unit: ms).
+
+Run generate_example_stim_main.m to write an example stimulation sound with target frequency at 1196Hz.
 
 Hope you enjoy!
