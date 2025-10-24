@@ -1,11 +1,12 @@
 # Multi-Tone-Masking-Awareness-Training-fMRI-adaption
 Experiment on multi-tone masking, including target detection training and fMRI adaption experiment.
 
-Operating environment: Matlab 2023b or later, Psychtoolbox 3.0.15 or later, Signal Processing toolbox.
+Operating environment: 
+  Matlab 2023b or later, Psychtoolbox 3.0.15 or later, Signal Processing toolbox.
 
 Run Experiment_Startup_main.m to start the experiment.
-Choose 1 to start offline training & MRI simulating experiment.
-Choose 2 to start fMRI experiment.
+  Choose 1 to start offline training & MRI simulating experiment.
+  Choose 2 to start fMRI experiment.
 
 Scanning / stimuli / experiment configuration could be modified through Training_exp_setting_main.m for training experiment, and MRI_exp_settings_main.m for fMRI experiment.
 
