@@ -87,7 +87,7 @@ sound_card_index = 2;
 scanner.TR = 2;
 scanner.TR_puluses_per_trial = cfg.SOA * cfg.n_wndws/scanner.TR;
 scanner.TRs_to_be_wait_before_block = [5,5,5,5];
-scanner.latency = 0.18;
+scanner.latency = 0.21;
 
 if ~mod(scanner.TR_puluses_per_trial, 1) == 0
     warning('The length of trial is not an integer multiple of TR!');
@@ -107,4 +107,5 @@ exp.flipped_TR_index_list = [scanner.TR_puluses_per_trial,scanner.TR_puluses_per
 
 exp.greenlight_TR_duration = 1; % Waiting for 1 TRs to turn green to red
 exp.flip_green_TR_index_list = [3,4,5]; % TRs to flip the monitor to green
+
 
